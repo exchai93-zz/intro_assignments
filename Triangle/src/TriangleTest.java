@@ -7,9 +7,17 @@ public class TriangleTest {
     @Test
     public void testPrintAsterisk() {
         Triangle triangle = new Triangle();
+        String result = triangle.PrintAsterisk();
 
-        String result = triangle.printAsterisk();
         assertEquals("*", result);
+    }
+
+    @Test
+    public void testDrawHoriztonalLine() {
+        Triangle triangle = new Triangle();
+        String result = triangle.DrawHoriztonalLine(8);
+
+        assertEquals("********", result);
     }
 
 

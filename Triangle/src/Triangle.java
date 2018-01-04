@@ -1,6 +1,6 @@
 public class Triangle {
 
-    public String printAsterisk() {
+    public String PrintAsterisk() {
         return("*");
     }
 }
