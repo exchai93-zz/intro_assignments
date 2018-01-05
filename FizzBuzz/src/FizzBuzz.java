@@ -7,11 +7,9 @@ public class FizzBuzz {
         String s = "";
 
         if (i % 3 == 0)
-            s = "Fizz";
+            s += "Fizz";
         if (i % 5 == 0)
-            s = "Buzz";
-        if (i % 3 == 0 && i % 5 == 0)
-            s = "FizzBuzz";
+            s += "Buzz";
 
         return s.isEmpty() ? String.valueOf(i) : s;
     }
