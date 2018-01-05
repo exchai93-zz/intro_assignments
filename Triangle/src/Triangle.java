@@ -31,4 +31,20 @@ public class Triangle {
         return result;
     }
 
+    public String printAnIsoscelesTriangle(int num) {
+        String result = "";
+        int width = (2 * num) - 1;
+
+        for (int i = 1; i < num * 2; i += 2) {
+            for (int j = 1; j < (num - (i / 2)); j++) {
+                result +=(" ");
+            }
+            for (int j = 0; j < i; j++) {
+                result +=("*");
+            }
+            result +=("\n");
+        }
+        return result;
+    }
+
 }

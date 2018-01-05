@@ -36,5 +36,13 @@ public class TriangleTest {
         assertEquals("*\n**\n***\n", result);
     }
 
+    @Test
+    public void printAnIsoscelesTriangle() {
+        Triangle triangle = new Triangle();
+        String result = triangle.printAnIsoscelesTriangle(3);
+
+        assertEquals("  *  \n *** \n*****\n", result);
+    }
+
 
 }
