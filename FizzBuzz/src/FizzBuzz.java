@@ -15,7 +15,7 @@ public class FizzBuzz {
         if (i % 5 == 0)
             s += "Buzz";
 
-        return s.isEmpty() ? String.valueOf(i) : s;
+        return !s.isEmpty() ? s : String.valueOf(i);
     }
 
 }
