@@ -31,9 +31,8 @@ public class Triangle {
         return result;
     }
 
-    public String printAnIsoscelesTriangle(int num) {
+    public String printIsoscelesTriangle(int num) {
         String result = "";
-        int width = (2 * num) - 1;
 
         for (int i = 1; i < num * 2; i += 2) {
             for (int j = 1; j < (num - (i / 2)); j++) {
@@ -45,6 +44,14 @@ public class Triangle {
             result +=("\n");
         }
         return result;
+    }
+
+    public String printDiamond(int num) {
+        int width = (2 * num) - 1;
+
+        String result = "";
+        for (int 1 = 0)
+
     }
 
 }

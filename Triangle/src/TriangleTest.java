@@ -37,11 +37,19 @@ public class TriangleTest {
     }
 
     @Test
-    public void printAnIsoscelesTriangle() {
+    public void printIsoscelesTriangle() {
         Triangle triangle = new Triangle();
-        String result = triangle.printAnIsoscelesTriangle(3);
+        String result = triangle.printIsoscelesTriangle(3);
 
         assertEquals("  *  \n *** \n*****\n", result);
+    }
+
+    @Test
+    public void printDiamond() {
+        Triangle triangle = new Triangle();
+        String result = triangle.printDiamond(3);
+
+        assertEquals("  *  \n *** \n*****\n *** \n  *  \n", result);
     }
 
 
