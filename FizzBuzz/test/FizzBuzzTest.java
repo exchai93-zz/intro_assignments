@@ -35,4 +35,9 @@ public class FizzBuzzTest {
        assertThat(FizzBuzz.of(10), is("Buzz"));
    }
 
+   @Test
+    public void of_15isFizzBuzz() {
+       assertThat(FizzBuzz.of(15), is("FizzBuzz"));
+   }
+
 }
