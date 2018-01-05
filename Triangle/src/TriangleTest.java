@@ -5,19 +5,27 @@ import static org.junit.Assert.*;
 public class TriangleTest {
 
     @Test
-    public void testPrintAsterisk() {
+    public void printAsterisk() {
         Triangle triangle = new Triangle();
-        String result = triangle.PrintAsterisk();
+        String result = triangle.printAsterisk();
 
         assertEquals("*", result);
     }
 
     @Test
-    public void testDrawHoriztonalLine() {
+    public void printHorizontalLine() {
         Triangle triangle = new Triangle();
-        String result = triangle.DrawHoriztonalLine(8);
+        String result = triangle.printHorizontalLine(8);
 
         assertEquals("********", result);
+    }
+
+    @Test
+    public void printVerticalLine() {
+        Triangle triangle = new Triangle();
+        String result = triangle.printVerticalLine(3);
+
+        assertEquals("*\n*\n*\n", result);
     }
 
 
