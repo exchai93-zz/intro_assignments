@@ -4,6 +4,10 @@ public class FizzBuzz {
         if (i == 0)
             return "0";
 
+        return _of(i);
+    }
+
+    private static String _of(int i) {
         String s = "";
 
         if (i % 3 == 0)
