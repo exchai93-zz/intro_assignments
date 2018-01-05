@@ -20,4 +20,15 @@ public class Triangle {
         return result;
     }
 
+    public String printARightTriangle(int num) {
+        String result = "";
+        for (int i = 0; i < num; i++) {
+            for (int j = 0; j <= i; j++)
+                result +=("*");
+                result +=("\n");
+
+        }
+        return result;
+    }
+
 }

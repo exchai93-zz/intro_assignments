@@ -28,5 +28,13 @@ public class TriangleTest {
         assertEquals("*\n*\n*\n", result);
     }
 
+    @Test
+    public void printARightTriangle() {
+        Triangle triangle = new Triangle();
+        String result = triangle.printARightTriangle(3);
+
+        assertEquals("*\n**\n***\n", result);
+    }
+
 
 }
