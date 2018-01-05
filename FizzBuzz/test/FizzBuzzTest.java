@@ -15,4 +15,19 @@ public class FizzBuzzTest {
        assertThat(FizzBuzz.of(1), is("1"));
    }
 
+   @Test
+    public void of_3isFizz() {
+       assertThat(FizzBuzz.of(3), is("Fizz"));
+   }
+
+   @Test
+    public void of_5isBuzz() {
+       assertThat(FizzBuzz.of(5), is("Buzz"));
+   }
+
+   @Test
+    public void of_6isFizz() {
+       assertThat(FizzBuzz.of(6), is("Fizz"));
+   }
+
 }
