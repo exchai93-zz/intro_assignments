@@ -1,4 +1,4 @@
-public class Triangle {
+public class AsteriskPrinter {
 
     public String printAsterisk() {
         return("*");
